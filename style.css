@@ -1,0 +1,316 @@
+#navbar {
+    background: #198754 !important;
+}
+
+#returent-name{
+    display: inline-block;
+    color: white;
+    padding: 0 10px;
+   
+}
+
+
+
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover{
+    color: rgb(223, 219, 219) !important;
+    transition: 0.4s;
+
+}
+.burger-pizza-pasta {
+    display: flex;
+}
+
+.burger-pizza-pasta-info {
+    /* width: 650px; */
+    padding: 10px;
+    margin-top: 50px;
+    margin: auto;
+    width: 40%;
+}
+
+.burger-pizza-pasta-info h1 {
+    color: rebeccapurple;
+    font-size: 35px;
+    padding: 10px 0;
+    margin: 10px 0 0 10px;
+}
+
+.burger-pizza-pasta-info p {
+    color: rgb(14, 13, 13);
+    font-weight: 400;
+    font-size: 18px;
+    padding:0 10px;
+}
+
+.burger-pizza-pasta-info h2 {
+    padding: 10px;
+    font-size: 40px;
+    color: #010101;
+    font-family: 'Reem Kufi', sans-serif;
+
+} 
+.burger-pizza-pasta-img {
+    padding: 20px;
+    margin: auto;
+}
+.burger-pizza-pasta-img img{
+    height: 400px;
+}
+
+.buy-btn {
+    border: none;
+    background: linear-gradient(180deg,rgb(84, 238, 84),#198754);
+    /* background-image: linear-gradient(#27e98e, #028b4b); */
+    font-size: 20px;
+    font-weight: 500;
+    padding: 7px 0;
+    width: 130px;
+    border-radius: 5px;
+    /* font-family: 'Reem Kufi', sans-serif; */
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(44, 44, 44);
+    margin: 5px 10px;
+    text-align: center;
+    cursor: pointer;
+    border-top: 1px solid rgb(73, 69, 69);
+}
+
+.buy-btn:hover {
+    background: linear-gradient(180deg,#198754, rgb(84, 238, 84));
+    /* background-image: linear-gradient(#028b4b,#27e98e); */
+    transition: 2s;
+}
+
+
+/* food category */
+
+.three-category {
+    background: #198754;
+    border-radius: 5px;
+    height: 175px;
+    transition: all .4s ease-in-out;
+}
+
+.three-category a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.three-category a h1 {
+    color: white;
+    font-size: 40px;
+    padding: 20px;
+    /* width: 200px; */
+    margin: auto;
+    
+}
+
+.three-category a img {
+    padding: 20px;
+    margin: auto;
+    height: 175px;
+    
+}
+.food-category {
+    text-align: center;
+    font-size: 22px;
+    padding: 20px;
+    color: #3a3838;
+}
+
+.food-category h1 {
+    color: #646363;
+}
+.row {
+    padding: 10px 100px;
+    width: 100%;
+}
+
+
+.three-category.burger:hover{
+    background: #09a35bd5;
+    transition: 0.4s;
+}
+
+.three-category.pasta {
+    background:#0d6efd;
+    
+}
+
+.three-category.pasta:hover{
+    background:#074cb3;
+    transition: 0.4s;
+}
+.three-category.pizza{
+   background: #ffc107;
+   
+
+}
+.three-category a:hover {
+    text-decoration: none;
+}
+
+.three-category.pizza:hover {
+    background:#FFCA2C;
+    transition: 0.4s;
+}
+
+.food-card img {
+    width: 260px;
+    margin: auto;
+    padding: 10px;
+}
+.food-card {
+    width: 300px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 2.8px 2.2px rgb(0 0 0 / 3%), 
+    0 6.7px 5.3px rgb(0 0 0 / 5%), 
+    0 12.5px 10px rgb(0 0 0 / 6%), 
+    0 22.3px 17.9px rgb(0 0 0 / 7%), 
+    0 41.8px 33.4px rgb(0 0 0 / 9%), 
+    0 100px 80px rgb(0 0 0 / 12%);
+    
+}
+
+/* offer-section */
+.offer-section {
+    background-image: url(https://i.ibb.co/JyM9XWp/image.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.offer-banner {
+    text-align: center;
+    color: white;
+    margin: 20px;
+    padding: 40px;
+}
+
+.offer-banner h1 {
+    margin-top: 100px;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.offer-banner p {
+    font-size: 18px;
+    
+}
+.offer-btn {
+    border-top: 1px solid rgb(63, 58, 58);
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 26px;
+    font-weight: bold;
+   transition: 0.4s ease-in-out;
+   margin-top: 20px;
+}
+
+.offer-btn:hover {
+    letter-spacing: 3px;
+    transition: 0.4s;
+    
+}
+
+/* services */
+.sevice-section h1.head {
+    text-align: center;
+    font-size: 48px;
+    margin: 20px;
+    padding: 10px;
+    color: #4f4f50;
+}
+.services {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 50px;
+}
+
+.all-service {
+    text-align: center;
+   
+    padding: 15px;
+    box-shadow: 0 2.8px 2.2px rgb(0 0 0 / 3%), 
+    0 6.7px 5.3px rgb(0 0 0 / 5%), 
+    0 12.5px 10px rgb(0 0 0 / 6%), 
+    0 22.3px 17.9px rgb(0 0 0 / 7%), 
+    0 41.8px 33.4px rgb(0 0 0 / 9%), 
+    0 100px 80px rgb(0 0 0 / 12%);
+}
+
+.all-service i {
+    width: 60px;
+    height: 55px;
+    background: linear-gradient(180deg,rgb(84, 238, 84),#198754);
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 13px 10px 10px 10px;
+    border-radius: 100%;
+    margin: 10px;
+}
+.all-service h1 {
+    font-size: 28px;
+    color: #666869;
+}
+.all-service p {
+    color:#212529;
+    font-size: 17px;
+    padding: 10px;
+    font-weight: 400;
+}
+.service-btn {
+    background: linear-gradient(180deg,rgb(84, 238, 84),#198754);
+    width: 150px;
+    height: 50px;
+    margin: 15px;
+    cursor: pointer;
+    border-radius: 100%;
+    border: none;
+    color: #212529;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+/* footer */
+.footer {
+    width: 100%;
+    background: linear-gradient(180deg,rgb(84, 238, 84),#198754);
+    color: white;
+    
+}
+.footer p {
+    padding: 5px;
+    font-weight: 500;
+    text-align: center;
+}
+
+@keyframes zoomInDown {
+    0% {
+      opacity: 0;
+      transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -1000px, 0);
+      animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+    60% {
+      opacity: 1;
+      transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+      animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    }
+  }
+  
+  .animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+  .zoomInDown {
+    animation-name: zoomInDown;
+  }  
